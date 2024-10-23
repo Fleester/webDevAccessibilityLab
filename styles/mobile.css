@@ -18,6 +18,11 @@ footer {
   text-align: center;
 }
 
+#logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 header {
   background-color: #263248;
 }
@@ -60,7 +65,9 @@ section img {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="tel"],
+textarea[id="message"] {
   padding: 5px;
   font-size: 1.2rem;
 }
@@ -71,4 +78,23 @@ footer {
   font-size: 0.8em;
   text-align: center;
   font-style: italic;
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+}
+th,
+td {
+  padding: 10px 4px;
+  text-align: left;
+}
+th {
+  text-transform: uppercase;
+  border-bottom: 4px solid #000;
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #ccc;
 }

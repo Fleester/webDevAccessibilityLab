@@ -5,7 +5,7 @@ h2 {
 }
 .container {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1500px;
   min-width: 600px;
 }
 header {
@@ -29,6 +29,7 @@ nav ul {
 }
 nav ul li {
   border: none;
+  text-align: center;
   border-left: 1px solid #7e8aa2;
 }
 nav li:first-child {
@@ -40,12 +41,11 @@ main {
   gap:10px;
 }
 .section {
-  /*flex: 1 1 auto;*/
+  flex: 1 1 auto;
   padding: 0 10px 10px 0;
 }
 .resize-img {
-  width: 100%;
-  height: 100%;
+  width: 500px;
 }
 .sidebar {
   flex: 0 1 200px;
@@ -58,22 +58,5 @@ main {
   float: left;
   padding: 0 15px 15px 0;
 }
-table {
-  width: 100%;
-  max-width: 600px;
-  min-width: 300px;
-}
-th,
-td {
-  padding: 10px 4px;
-  text-align: left;
-}
-th {
-  text-transform: uppercase;
-  border-bottom: 4px solid #000;
-  background-color: #fff;
-}
-tr:nth-child(odd) {
-  background-color: #ccc;
-}
+
 /* Form Styling Needs Adding */
